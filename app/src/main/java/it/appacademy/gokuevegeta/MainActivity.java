@@ -9,8 +9,8 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
 
 
-    // GOKUEVEGETA
-    // porca miseria non cambia
+   // Proviamo adesso
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
