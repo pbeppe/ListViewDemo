@@ -18,6 +18,7 @@ public class FragmentIncDec extends Fragment {
 
 Button btnInc;
 Button btnDec;
+Comunication Com;
 
     public FragmentIncDec() {
         // Required empty public constructor
@@ -34,6 +35,9 @@ Button btnDec;
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
+        Com=(Comunication)getActivity();
+
         btnInc=(Button) getActivity().findViewById(R.id.btn_Inc);
         btnDec=(Button )getActivity().findViewById(R.id.btn_Dec);
         btnInc.setOnClickListener(new View.OnClickListener() {
@@ -42,6 +46,7 @@ Button btnDec;
 
                 // TODO : Invia Incremento
                 Log.d("OnClick","Incrementa");
+                Com.sendInc();
             }
         });
         btnDec.setOnClickListener(new View.OnClickListener() {
@@ -50,7 +55,7 @@ Button btnDec;
 
                 // TODO : Invia Decremento
                 Log.d("OnClick","Decrementa");
-
+                Com.sendDec();
 
             }
         });

@@ -15,7 +15,7 @@ import android.widget.TextView;
  */
 public class FragmentShow extends Fragment {
     TextView tvRisultato;
-
+    int risultato;
 
     public FragmentShow() {
         // Required empty public constructor
@@ -37,5 +37,20 @@ public class FragmentShow extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         tvRisultato=(TextView)getActivity().findViewById(R.id.idNum);
+    }
+
+    public  void incremental() {
+
+        String strRisultato=tvRisultato.getText().toString();
+        risultato=Integer.parseInt(strRisultato);
+        risultato++;
+        tvRisultato.setText(String.valueOf(risultato));
+    }
+
+    public void decremental() {
+        String strRisultato=tvRisultato.getText().toString();
+        risultato=Integer.parseInt(strRisultato);
+        risultato--;
+        tvRisultato.setText(String.valueOf(risultato));
     }
 }
