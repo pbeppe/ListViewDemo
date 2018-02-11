@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
     tools:context="com.example.pbeppe.incrementaedecrementa.MainActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <fragment
+        android:id="@+id/frg_Show"
+        android:name="com.example.pbeppe.incrementaedecrementa.FragmentShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" />
+
+    <fragment
+        android:id="@+id/frg_IncDec"
+        android:name="com.example.pbeppe.incrementaedecrementa.FragmentIncDec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" />
+</LinearLayout>
