@@ -4,6 +4,7 @@ package com.example.pbeppe.incrementaedecrementa;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,6 +41,7 @@ Button btnDec;
             public void onClick(View v) {
 
                 // TODO : Invia Incremento
+                Log.d("OnClick","Incrementa");
             }
         });
         btnDec.setOnClickListener(new View.OnClickListener() {
@@ -47,6 +49,9 @@ Button btnDec;
             public void onClick(View v) {
 
                 // TODO : Invia Decremento
+                Log.d("OnClick","Decrementa");
+
+
             }
         });
 
