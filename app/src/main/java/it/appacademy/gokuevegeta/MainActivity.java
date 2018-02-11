@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity
         FragmentTransaction tx = fm.beginTransaction();
         tx.replace(R.id.fragment_place, fr);
         tx.commit();}
-
+//Soluzione Finale
 
     }
 
