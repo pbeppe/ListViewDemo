@@ -2,21 +2,25 @@ package com.example.pbeppe.incrementaedecrementa;
 
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class FragmentShow extends Fragment {
+    TextView tvRisultato;
 
 
     public FragmentShow() {
         // Required empty public constructor
     }
+
 
 
     @Override
@@ -26,4 +30,12 @@ public class FragmentShow extends Fragment {
         return inflater.inflate(R.layout.fragment_show, container, false);
     }
 
+
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        tvRisultato=(TextView)getActivity().findViewById(R.id.idNum);
+    }
 }
