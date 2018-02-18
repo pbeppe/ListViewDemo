@@ -4,21 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
-    android:orientation="vertical"
-    tools:context="com.example.pbeppe.incrementaedecrementa.MainActivity">
+    tools:context="com.example.pbeppe.listviewdemo.MainActivity">
 
-    <fragment
-        android:id="@+id/frg_Show"
-        android:name="com.example.pbeppe.incrementaedecrementa.FragmentShow"
+    <ListView
+        android:id="@+id/lstAmici"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp" />
-
-    <fragment
-        android:id="@+id/frg_IncDec"
-        android:name="com.example.pbeppe.incrementaedecrementa.FragmentIncDec"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp" />
+        android:layout_height="match_parent" />
 </LinearLayout>

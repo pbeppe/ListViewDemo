@@ -1,9 +1,7 @@
 <resources>
-    <string name="app_name">INCREMENTA E DECREMENTA</string>
+    <string name="app_name">Goku e Vegeta</string>
+    <string name="goku">Goku</string>
+    <string name="vegeta">Vegeta</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="_0">0</string>
-    <string name="decrementa">Decrementa</string>
-    <string name="incrementa">Incrementa</string>
+
 </resources>
