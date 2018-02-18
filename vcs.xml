@@ -14,12 +14,8 @@
           <option name="url" value="https://github.com/pbeppe/IncrementaeDecrementa.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://github.com/pbeppe/ListViewDemo.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\Giuseppe\AndroidStudioProjects\" />
+    <option name="cloneParentDir" value="C:\Users\pbeppe\AndroidStudioProjects" />
   </component>
 </application>

@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ListViewDemo</string>
+    <string name="app_name">Goku e Vegeta</string>
+    <string name="goku">Goku</string>
+    <string name="vegeta">Vegeta</string>
+
+
 </resources>
